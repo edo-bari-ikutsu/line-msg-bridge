@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LINE Msg Bridge</string>
+    <string name="app_name_short">LINEMsgBridge</string>
+    <string name="system_settings">System settings</string>
+    <string name="about_this_app">About this app</string>
+    <string name="notification_read_permitted">Permission to read notification</string>
+    <string name="copyright">Copyright © 2024 bari-ikutsu.com</string>
+    <string name="seconds">second(s)</string>
+    <string name="notification_timeout">Notification timeout</string>
+    <string name="notification_timeout_enabled">Enable notification timeout</string>
+    <string name="car_connected">⭕Connected to Android Auto</string>
+    <string name="car_disconnected">❌Disconnected from Android Auto</string>
+    <string name="car_connection_state">Connection state to Android Auto</string>
+    <string name="action_reply">Reply</string>
+</resources>

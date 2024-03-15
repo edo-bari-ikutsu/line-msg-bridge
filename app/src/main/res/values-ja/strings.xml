@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LINE Msg Bridge</string>
+    <string name="app_name_short">LINEMsgBridge</string>
+    <string name="system_settings">システム設定</string>
+    <string name="about_this_app">このアプリについて</string>
+    <string name="notification_read_permitted">通知読み取り許可</string>
+    <string name="copyright">Copyright © 2024 bari-ikutsu.com</string>
+    <string name="seconds">秒</string>
+    <string name="notification_timeout">通知の表示時間</string>
+    <string name="notification_timeout_enabled">通知を一定時間で消去する</string>
+    <string name="car_connected">⭕Android Auto接続中</string>
+    <string name="car_disconnected">❌Android Auto未接続</string>
+    <string name="car_connection_state">Android Auto接続状態</string>
+    <string name="action_reply">返信</string>
+</resources>
