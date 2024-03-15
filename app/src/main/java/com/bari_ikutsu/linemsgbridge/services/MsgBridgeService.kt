@@ -61,6 +61,13 @@ class MsgBridgeService : NotificationListenerService() {
             return
         }
 
+        // If the notification has public version, do nothing
+        // Sometimes LINE sends two notifications (with and without publicVersion)
+        // We only want to send one notification
+        if (sbn.notification.publicVersion != null) {
+            return
+        }
+
         // Retrieve settings from DataStore
         var notificationTimeoutEnabled: Boolean
         var notificationTimeout: Float
