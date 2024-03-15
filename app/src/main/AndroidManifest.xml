@@ -17,7 +17,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name_short"
             android:theme="@style/Theme.LINEMsgBridge">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
