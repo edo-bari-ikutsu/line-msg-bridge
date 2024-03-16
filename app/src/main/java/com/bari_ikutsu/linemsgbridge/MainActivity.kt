@@ -32,6 +32,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -347,7 +348,9 @@ fun VersionAndCopyright(versionName: String) {
 fun PagePreview() {
     LINEMsgBridgeTheme {
         Page(
-            carConnectionState = mutableStateOf(true),
+            carConnectionState = remember{
+                mutableStateOf(true)
+            },
             tryToGetPermission = {},
             versionName = "0.1"
         )

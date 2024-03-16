@@ -91,7 +91,7 @@ class NotificationUtil {
             if (clearTimeout >= 0) {
                 mBuilder.setTimeoutAfter(clearTimeout)
             }
-            val msgNotificationManager = NotificationManagerCompat.from(context!!)
+            val msgNotificationManager = NotificationManagerCompat.from(context)
             msgNotificationManager.notify(conversationId, mBuilder.build())
         }
 
