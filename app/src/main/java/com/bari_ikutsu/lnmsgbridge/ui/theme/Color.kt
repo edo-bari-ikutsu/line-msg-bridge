@@ -1,4 +1,4 @@
-package com.bari_ikutsu.lineautoanswer.ui.theme
+package com.bari_ikutsu.lnmsgbridge.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

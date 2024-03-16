@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge
+package com.bari_ikutsu.lnmsgbridge
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.bari_ikutsu.linemsgbridge", appContext.packageName)
+        assertEquals("com.bari_ikutsu.lnmsgbridge", appContext.packageName)
     }
 }

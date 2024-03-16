@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge.data
+package com.bari_ikutsu.lnmsgbridge.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore

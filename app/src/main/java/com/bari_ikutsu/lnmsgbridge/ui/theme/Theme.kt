@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge.ui.theme
+package com.bari_ikutsu.lnmsgbridge.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -14,12 +14,6 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.bari_ikutsu.lineautoanswer.ui.theme.Primary40
-import com.bari_ikutsu.lineautoanswer.ui.theme.Primary80
-import com.bari_ikutsu.lineautoanswer.ui.theme.Secondary40
-import com.bari_ikutsu.lineautoanswer.ui.theme.Secondary80
-import com.bari_ikutsu.lineautoanswer.ui.theme.Tertiary40
-import com.bari_ikutsu.lineautoanswer.ui.theme.Tertiary80
 
 private val DarkColorScheme = darkColorScheme(
     primary = Primary80,
@@ -44,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun LINEMsgBridgeTheme(
+fun LNMsgBridgeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

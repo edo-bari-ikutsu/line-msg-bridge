@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge
+package com.bari_ikutsu.lnmsgbridge
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -44,10 +44,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationManagerCompat
-import com.bari_ikutsu.linemsgbridge.data.PrefStore
-import com.bari_ikutsu.linemsgbridge.ui.theme.LINEMsgBridgeTheme
-import com.bari_ikutsu.linemsgbridge.utils.AutoConnectionDetector
-import com.bari_ikutsu.linemsgbridge.utils.Consts
+import com.bari_ikutsu.lnmsgbridge.data.PrefStore
+import com.bari_ikutsu.lnmsgbridge.ui.theme.LNMsgBridgeTheme
+import com.bari_ikutsu.lnmsgbridge.utils.AutoConnectionDetector
+import com.bari_ikutsu.lnmsgbridge.utils.Consts
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            LINEMsgBridgeTheme {
+            LNMsgBridgeTheme {
                 Page(
                     carConnectionState = carConnectionState,
                     tryToGetPermission = { tryToGetPermission() },
@@ -346,7 +346,7 @@ fun VersionAndCopyright(versionName: String) {
 @Preview(showBackground = true)
 @Composable
 fun PagePreview() {
-    LINEMsgBridgeTheme {
+    LNMsgBridgeTheme {
         Page(
             carConnectionState = remember{
                 mutableStateOf(true)

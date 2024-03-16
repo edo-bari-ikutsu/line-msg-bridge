@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge.utils
+package com.bari_ikutsu.lnmsgbridge.utils
 
 class Consts {
     companion object {

@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge.utils
+package com.bari_ikutsu.lnmsgbridge.utils
 
 import android.annotation.SuppressLint
 import android.app.Notification

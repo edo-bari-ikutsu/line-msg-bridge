@@ -1,14 +1,14 @@
-package com.bari_ikutsu.linemsgbridge.services
+package com.bari_ikutsu.lnmsgbridge.services
 
 import android.app.Notification
 import android.service.notification.NotificationListenerService
 import android.service.notification.StatusBarNotification
 import android.util.Log
-import com.bari_ikutsu.linemsgbridge.R
-import com.bari_ikutsu.linemsgbridge.data.PrefStore
-import com.bari_ikutsu.linemsgbridge.utils.AutoConnectionDetector
-import com.bari_ikutsu.linemsgbridge.utils.Consts
-import com.bari_ikutsu.linemsgbridge.utils.NotificationUtil
+import com.bari_ikutsu.lnmsgbridge.R
+import com.bari_ikutsu.lnmsgbridge.data.PrefStore
+import com.bari_ikutsu.lnmsgbridge.utils.AutoConnectionDetector
+import com.bari_ikutsu.lnmsgbridge.utils.Consts
+import com.bari_ikutsu.lnmsgbridge.utils.NotificationUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
@@ -16,7 +16,7 @@ import java.util.Random
 
 class MsgBridgeService : NotificationListenerService() {
     companion object {
-        private const val TAG = "LINEMsgBridge:MsgBridgeService"
+        private const val TAG = "MsgBridgeService"
     }
 
     private lateinit var prefStore: PrefStore

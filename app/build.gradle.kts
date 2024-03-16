@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bari_ikutsu.linemsgbridge"
+    namespace = "com.bari_ikutsu.lnmsgbridge"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bari_ikutsu.linemsgbridge"
+        applicationId = "com.bari_ikutsu.lnmsgbridge"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.bari_ikutsu.linemsgbridge
+package com.bari_ikutsu.lnmsgbridge
 
 import org.junit.Test
 
